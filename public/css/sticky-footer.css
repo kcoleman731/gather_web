@@ -32,6 +32,8 @@ h3 {
   margin: 0 auto -60px;
   /* Pad bottom by footer height */
   padding: 0 0 60px;
+  width: 1024px;
+  text-align: center;
 }
 
 /* Set the fixed height of the footer here */
@@ -45,22 +47,24 @@ h3 {
 }
 
 .content {
-  padding-left: 22%;
-  padding-right: 30%;
-  padding-top: 2%;
+
 }
 
 .photoPane {
-  width: 40%;
-  float: right;
-  margin-top: 0%;
+  max-width: 512px;
+  max-height: 50%;
+  float: left;
 }
 
-.textContainer{
-  max-width: 50%;
+.textContainer {
   float: left;
+  max-width: 512px;
   text-align: center;
-  margin-top: 14%;
+}
+
+.textBox {
+  margin-left: 170px;
+  margin-top: 170px;
 }
 
 .logo {
@@ -70,7 +74,8 @@ h3 {
   margin-bottom: 6%;
 }
 .phone{
-  max-width: 120%;
+  max-width: 512px;
+  max-height: 650px;
 }
 
 .button{
