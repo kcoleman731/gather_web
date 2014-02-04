@@ -24,6 +24,12 @@ h3 {
   font-weight: 200;
 }
 
+#legalDocs {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
 /* Wrapper for page content to push down footer */
 #wrap {
   min-height: 100%;
@@ -71,7 +77,7 @@ h3 {
   max-width: 100%;
   width:auto;
   height: auto;
-  margin-bottom: 6%;
+  margin-bottom: 2%;
 }
 .phone{
   max-width: 512px;
